@@ -2,41 +2,9 @@
 
 Frontend React + Vite cho demo thuong mai dien tu Nhom 5.
 
-## Chay local
-
-```bash
-npm install
-npm run dev
-```
-
-Mac dinh frontend dung backend Railway:
-
-```txt
-https://ecomn5-backend-production.up.railway.app
-```
-
-Neu muon doi API URL, tao file `.env`:
-
-```txt
-VITE_API_URL=https://your-backend.up.railway.app
-```
-
-## Build
-
-```bash
-npm run build
-```
-
 ## Deploy Vercel
 
-1. Import repo frontend vao Vercel.
-2. Framework preset: `Vite`.
-3. Build command: `npm run build`.
-4. Output directory: `dist`.
-5. Environment Variables:
-
 ```txt
-VITE_API_URL=https://ecomn5-backend-production.up.railway.app
+https://ecomn5.vercel.app/
 ```
 
-Sau khi deploy, can them domain frontend Vercel vao bien `FRONTEND_URL` cua backend Railway de CORS cho phep frontend goi API.
